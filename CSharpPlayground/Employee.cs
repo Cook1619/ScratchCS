@@ -31,14 +31,15 @@ namespace CSharpPlayground
         }
 
         // Having 2 methods or 2 constructors is normal in C# as long as there performing something different, in this case one accepts arguments, one doesn't
-        public void PerformWork()
+        public string PerformWork()
         {
-            PerformWork(minimalHoursWorkedUnit);
+            return PerformWork(minimalHoursWorkedUnit);
         }
-        public void PerformWork(int numberOfHours)
+        public string PerformWork(int numberOfHours)
         {
             numberOfHoursWorked++;
             Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHours} hour(s)!");
+            return $"{firstName} {lastName} has worked for {numberOfHours} hour(s)!";
         }
 
         public double ReceiveWage(bool resetHours = true)
