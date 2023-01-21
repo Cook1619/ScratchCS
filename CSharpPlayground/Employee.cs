@@ -51,9 +51,11 @@ namespace CSharpPlayground
             return wage;
         }
 
-        public void DisplayEmployeeDetails()
+        public string DisplayEmployeeDetails()
         {
             Console.WriteLine($"First name: {firstName}\nLast name: {lastName}\nEmail: {email}\nBirthday: {birthDay.ToShortDateString()}");
+            return
+                $"First name: {firstName}\nLast name: {lastName}\nEmail: {email}\nBirthday: {birthDay.ToShortDateString()}";
         }
     }
 }

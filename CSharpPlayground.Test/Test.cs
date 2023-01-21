@@ -11,9 +11,15 @@ namespace CSharpPlayground.Test
         }
 
         [Test]
-        public void Test1()
+        public void DisplayEmployeeDetailsTest()
         {
-            var mike = new Employee("mike", "pizzle", "1", DateTime.Now);
+            // Arrange
+            Employee employee = new Employee("Matt", "Cook", "mcook@gmail.com", new DateTime(1986, 1, 23), 50);
+            string expected = "First name: Matt\nLast name: Cook\nEmail: mcook@gmail.com\nBirthday: 1/23/1986";
+            // Act
+            string actual = employee.DisplayEmployeeDetails();
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
         }
     }
 
