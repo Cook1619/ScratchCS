@@ -8,6 +8,7 @@ namespace CSharpPlayground.Test
         [SetUp]
         public void Setup()
         {
+            //Employee _employee = new Employee("Matt", "Cook", "mcook@gmail.com", new DateTime(1986, 1, 23), 50);
         }
 
         [Test]
@@ -42,6 +43,18 @@ namespace CSharpPlayground.Test
             string expected = "Matt Cook has worked for 10 hour(s)!";
             // Act
             string actual = employee.PerformWork(10);
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void ReceiveWagetest()
+        {
+            // Arrange
+            Employee employee = new Employee("Matt", "Cook", "mcook@gmail.com", new DateTime(1986, 1, 23), 50);
+            double expected = 0.0d;
+            // Act
+            double actual = employee.ReceiveWage(false);
             // Assert
             Assert.That(actual, Is.EqualTo(expected));
         }

@@ -48,7 +48,6 @@ namespace CSharpPlayground
             Console.WriteLine($"{firstName} {lastName} has received a wage of {wage} for {numberOfHoursWorked} hour(s) of work.");
 
             if (resetHours) numberOfHoursWorked = 0;
-
             return wage;
         }
 
