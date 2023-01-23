@@ -31,7 +31,7 @@ Console.WriteLine($"Wage paid (message from program): {receivedWageMatt}");
 
 
 // Object of derived class 
-Dog vizsla = new Animal();
+Dog vizsla = new Dog();
 vizsla.name = "Flynn";
 
 vizsla.display();

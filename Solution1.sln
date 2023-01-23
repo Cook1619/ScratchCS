@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlayground", "CSharpP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlayground.Test", "CSharpPlayground.Test\CSharpPlayground.Test.csproj", "{969B6E1A-3E83-4265-9A98-E3677E46EE36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{5FF4CDFB-570A-4CCF-A2FF-9BF73D25E06B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{969B6E1A-3E83-4265-9A98-E3677E46EE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969B6E1A-3E83-4265-9A98-E3677E46EE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969B6E1A-3E83-4265-9A98-E3677E46EE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF4CDFB-570A-4CCF-A2FF-9BF73D25E06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF4CDFB-570A-4CCF-A2FF-9BF73D25E06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF4CDFB-570A-4CCF-A2FF-9BF73D25E06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF4CDFB-570A-4CCF-A2FF-9BF73D25E06B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
