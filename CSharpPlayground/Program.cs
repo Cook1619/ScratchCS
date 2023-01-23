@@ -27,3 +27,13 @@ matt.PerformWork();
 double receivedWageMatt = matt.ReceiveWage(true);
 
 Console.WriteLine($"Wage paid (message from program): {receivedWageMatt}");
+
+
+
+// Object of derived class 
+Dog vizsla = new Animal();
+vizsla.name = "Flynn";
+
+vizsla.display();
+
+vizsla.getName();
