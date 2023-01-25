@@ -51,3 +51,28 @@ Console.WriteLine("Smallest  Element: " + numbers.Min());
 Console.WriteLine("Largest Element: " + numbers.Max());
 
 Console.ReadLine();
+
+// declare jagged array
+int[ ][ ] jaggedArray = new int[2][ ];
+
+// set size of the first array as 3
+jaggedArray[0] = new int[3];
+
+// set size of second array as 2
+jaggedArray[1] = new int[2];
+
+// initialize the first array
+jaggedArray[0][0] = 1;
+jaggedArray[0][1] = 3;
+jaggedArray[0][2] = 5;
+
+// initialize the second array
+jaggedArray[1][0] = 2;
+jaggedArray[1][1] = 4;
+
+// Initialize while declaring Jagged Array
+int[ ][ ] jaggedArray2 = {
+    new int[ ] {10, 20, 30},
+    new int[ ] {11, 22},
+    new int[ ] {88, 99}
+};
