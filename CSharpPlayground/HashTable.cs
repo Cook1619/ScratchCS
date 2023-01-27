@@ -29,5 +29,12 @@ public class HashTable
             Console.WriteLine("Key = {0}, Value = {1}", item.Key, item.Value);
         }
         Console.ReadLine();
+        
+        Hashtable htbl2 = new Hashtable(){
+            {"msg", "Welcome"},
+            {"site", "Tutlane"},
+            {1, 20.5},
+            {2, null}
+        };
     }
 }
